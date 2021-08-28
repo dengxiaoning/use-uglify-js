@@ -1,0 +1,22 @@
+{
+  "name": "uglifytoabc",
+  "version": "1.0.0",
+  "description": "",
+  "author": "dex <412693453@qq.com>",
+  "private": true,
+  "scripts": {
+    "start": "node compress.js"
+  },
+  "dependencies": {
+	"uglify-js":"3.14.1"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
